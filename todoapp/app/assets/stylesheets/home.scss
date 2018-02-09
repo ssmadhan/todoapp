@@ -1,0 +1,36 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#todo-main-label {
+  font-size: 30px;
+  font-color: black;
+}
+
+#todo-text-entry {
+  width: 250px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.todo-item-display {
+  width: 150px;
+  margin-left: 10px;
+
+}
+
+label.complete {
+  text-decoration: line-through;
+}
+
+#todo-items {
+  margin-top: 20px;
+}
+
+#todo-display{
+  max-height: 100px;
+  max-width: 300px;
+  overflow: auto;
+}

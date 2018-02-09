@@ -1,0 +1,26 @@
+development:
+  adapter: mysql2
+  host: localhost
+  username: root
+  password: Cisco123
+  database: todoapp_dev
+  pool: 150
+  encoding: utf8
+
+test:
+  adapter: mysql2
+  host: localhost
+  username: root
+  password: Cisco123
+  database: todoapp_test
+  pool: 150
+  encoding: utf8
+
+production:
+  adapter: mysql2
+  host: localhost
+  username: root
+  password: Cisco123
+  database: todoapp_prod
+  pool: 150
+  encoding: utf8
